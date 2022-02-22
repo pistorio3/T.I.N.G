@@ -28,6 +28,7 @@ def remove(instance):
     sys.stdout.write(
         f"Arquivo {removed['nome_do_arquivo']} removido com sucesso\n"
     )
+    print('test')
 
 
 def file_metadata(instance, position):
